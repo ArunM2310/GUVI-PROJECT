@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Html CRUD with Pure JavaScript
+    </title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+
+<body>
+    <h1>PROFILE</h1>
+     <a class="logout" href="login.html"><button>logout</button></a>
+    <table  >
+        <table class="first">
+            <td >
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Full Name*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>age</label>
+                        <input type="text" name="empCode" id="empCode">
+                    </div>
+                    <div>
+                        <label>dob</label>
+                        <input type="text" name="salary" id="salary">
+                    </div>
+                    <div>
+                        <label>contact</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <!-- <a class="logout" href="login.html"><button>logout</button></a> -->
+                        <input  type="submit" value="Submit">
+                       
+                    </div>
+                </form>
+            </td><br>
+            </table><br><br>
+            <table class="second">
+            <td class="to">
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>age</th>
+                            <th>dob</th>
+                            <th>Contact</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- <a class="logout" href="login.html"><button>logout</button></a> -->
+    <script src="/js/profile.js"></script>
+</body>
+
+</html>
