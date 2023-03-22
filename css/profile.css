@@ -21,6 +21,10 @@ div.top{
     align-items: flex-start;
 }
 
+h1{
+    color: rgb(226, 223, 223);
+}
+
    
 table{
     border-collapse: collapse;

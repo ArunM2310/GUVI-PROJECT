@@ -88,3 +88,20 @@ border-radius: 10PX;
 .container:hover{
     border: 2px solid rgb(108, 19, 190);
 }
+
+
+div.content{
+    top: 46%;
+   left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+
+h1{
+    color: white;
+}
+
+span{
+    color: rgb(41, 126, 229);
+}
